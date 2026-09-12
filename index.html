@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ArsRepo</title>
+    <meta name="description" content="Just a repo">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Шапка репозитория -->
+        <header class="repo-header">
+            <!-- Замени на свой логотип (рекомендуемый размер 256x256) -->
+            <img src="https://via.placeholder.com/150/007AFF/FFFFFF?text=Logo" alt="Repo Icon" class="repo-icon">
+            <h1 class="repo-title">ArsRepo</h1>
+            <p class="repo-description">Just a repo</p>
+        </header>
+
+        <!-- Кнопки добавления в менеджеры пакетов -->
+        <main class="repo-actions">
+            <!-- Замени YOUR_REPO_URL на ссылку твоего репозитория (например, https://username.github.io/repo/) -->
+            <a href="sileo://source/https://arsrepo.github.io/repo/" class="btn btn-sileo">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+                Добавить в Sileo
+            </a>
+            
+            <a href="zbra://sources/add/https://arsrepo.github.io/repo/" class="btn btn-zebra">
+                Добавить в Zebra
+            </a>
+            
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://arsrepo.github.io/repo/" class="btn btn-cydia">
+                Добавить в Cydia
+            </a>
+        </main>
+
+        <!-- Информация -->
+        <section class="repo-info">
+            <h2>О репозитории</h2>
+            <p>Чтобы установить твики, откройте эту страницу в Safari на вашем iOS-устройстве с джейлбрейком и нажмите на кнопку нужного пакетного менеджера.</p>
+        </section>
+
+        <!-- Подвал -->
+        <footer>
+            <p>&copy; 2026 ArsRepo</p>
+        </footer>
+    </div>
+</body>
+</html>
