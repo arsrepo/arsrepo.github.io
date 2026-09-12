@@ -1,0 +1,16 @@
+Package: com.arsrepo.androidnavbar
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: ArsRepo
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.arsrepo.androidnavbar_0.0.1-1+debug_iphoneos-arm64.deb
+Size: 5852
+MD5sum: 634dec5931c852d47ae6187e1fdd9f5f
+SHA1: 30fb2b94f5741f2d2156bcc3be1649525d8ce0b4
+SHA256: cb2350c063dde206e6c82fa75317e87211c47fee6c5b378204c24d26c760a609
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: ArsRepo
+Name: AndroidNavBar
+
