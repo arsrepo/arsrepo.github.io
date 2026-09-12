@@ -1,0 +1,8 @@
+Origin: ArsRepo
+Label: ArsRepo
+Suite: beta
+Version: 1.0
+Codename: anna
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: Just a repo

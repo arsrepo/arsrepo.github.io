@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "[*] Создание файла Packages..."
+dpkg-scanpackages -m ./debs > Packages
+
+echo "[*] Сжатие Packages..."
+bzip2 -c9 Packages > Packages.bz2
+xz -c9 Packages > Packages.xz
+zstd -c19 Packages > Packages.zst
+
+echo "[*] Готово! Теперь можно пушить в GitHub."
