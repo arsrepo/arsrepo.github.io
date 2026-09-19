@@ -1,16 +1,14 @@
-Package: com.arsrepo.androidnavbar
-Version: 1.0.0B1-11+debug
+Package: com.arsrepo.samsungexperienceicons
+Version: 1.0.0-B1-1+debug
 Architecture: iphoneos-arm64
-Maintainer: ArsRepo
-Installed-Size: 416
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.arsrepo.androidnavbar_1.0.0B1-11+debug_iphoneos-arm64.deb
-Size: 22446
-MD5sum: 0629fe01f5a81cc24f163dbdb3a518f8
-SHA1: 203ec26710302436a34c3c4f8b5e8a150855d94f
-SHA256: b2f9278c0379c1ca4c6fd4798f4e4972626daa1a6f413cf8c95e13739a8c1fd2
-Section: Tweaks
-Description: This tweak replases iPhone X gestures to Android Navigation Bar.
+Installed-Size: 3768
+Depends: mobilesubstrate, com.spark.snowboard
+Filename: ./debs/com.arsrepo.samsungexperienceicons_1.0.0-B1-1+debug_iphoneos-arm64.deb
+Size: 3341880
+MD5sum: 194a8c4e7a21faf38f9f88942ef838a5
+SHA1: d0ef86a5b5b1e1ee40e261b43830e824edee696a
+SHA256: c7784fdc9779b7a793827a2b9fd14322a406bef21d37efe816ef47fc78180aee
+Description: Icons fron Samsung Experience in iOS
 Author: ArsRepo
-Name: AndroidNavBar
+Name: Samsung Experience Icon Pack
 
