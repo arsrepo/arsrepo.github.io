@@ -1,3 +1,19 @@
+Package: com.arsrepo.androidnavbar
+Version: 1.0.0B1-12+debug
+Architecture: iphoneos-arm64
+Maintainer: ArsRepo
+Installed-Size: 416
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.arsrepo.androidnavbar_1.0.0B1-12+debug_iphoneos-arm64.deb
+Size: 22602
+MD5sum: 73cfb8dac9da0c50e791d7a92607f171
+SHA1: 084e5e2808e2cb40c72f825e0b243d987bdeac7f
+SHA256: 26548d051e3dae1e1b77902c4107552638953332f807e955ab21a8edc58cb593
+Section: Tweaks
+Description: This tweak replases iPhone X gestures to Android Navigation Bar.
+Author: ArsRepo
+Name: AndroidNavBar
+
 Package: com.arsrepo.samsungexperienceicons
 Version: 1.0.0-B1-1+debug
 Architecture: iphoneos-arm64
